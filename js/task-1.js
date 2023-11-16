@@ -1,11 +1,5 @@
 const getUserNames = (array) => {
-  const newArray = [];
-
-  array.forEach((element) => {
-    newArray.push(element.name);
-  });
-
-  return newArray;
+  return array.map((element) => element.name);
 };
 
 console.log(
